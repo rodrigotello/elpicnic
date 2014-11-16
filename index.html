@@ -52,13 +52,18 @@
         margin: 0 auto;
       }
       
+      .ingredients-box {
+        border: 1px gray solid;
+        margin: 0 auto;
+      }
       .ingredient {
         width: 100px;
         height: 200px;
         padding: 1em;
-        margin: 0 auto;
+        margin: 0;
         border: 1px gray solid;
-        display: inline-block;
+        display: inline;
+        float: left;
       }
       
       .footer {
@@ -82,9 +87,11 @@
       <div class="menu">
         <h3>Menú</h3>
         <p>Contamos con un picnic kit. Éste incluye:</p>
-        <div class="ingredient">2 Paninis de 3 quesos (queso de cabra, queso manchego, queso panela) y espinacas.</div>
-        <div class="ingredient">2 Jugos de naranja con frutas</div>
-        <div class="ingredient">1 Manta para para tu picnic (sí, con cuadros rojos y blancos)</div>
+        <div class="ingredients-box">
+          <div class="ingredient">2 Paninis de 3 quesos (queso de cabra, queso manchego, queso panela) y espinacas.</div>
+          <div class="ingredient">2 Jugos de naranja con frutas</div>
+          <div class="ingredient">1 Manta para para tu picnic (sí, con cuadros rojos y blancos)</div>
+        </div>
       </div>
       <div class="order">
         <h3>Como ordenar</h3>
